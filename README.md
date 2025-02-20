@@ -4,19 +4,25 @@ Este repositorio contiene una aplicación básica de **FastAPI** que responde co
 
 ## Tabla de Contenidos
 - [Requisitos](#requisitos)
-- [Estructura del Proyecto](#estructura-del-proyecto)
-- [Construcción de la Imagen Docker](#construcción-de-la-imagen-docker)
-- [Ejecución del Contenedor](#ejecución-del-contenedor)
-- [Publicación en Docker Hub](#publicación-en-docker-hub)
-- [Limpieza](#limpieza)
-- [Contacto](#contacto)
+- [Instalación de FastApi](#instalación_de_FastApi)
+-  [Construcción de la Imagen Docker](#construccion_de_imagen_docker)
+
 
 ## Requisitos
 
 - [Docker](https://docs.docker.com/get-docker/) instalado en tu sistema.
+- Fast API
+- Python
 - (Opcional) Cuenta en [Docker Hub](https://hub.docker.com/) para subir la imagen.
 - (Opcional) Git para gestionar el control de versiones del proyecto.
 
+
+## Instalación de FastApi
+```bash
+python -m pip install --upgrade pip
+
+pip install "fastapi[standard]"
+```
 
 ## Construcción de la Imagen Docker
 
